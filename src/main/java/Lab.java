@@ -14,6 +14,16 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+        int dividend = 1;
+        int divisor = 0;
+        /*
+            if (divisor == 0) {
+                throw new ArithmeticException("Cannot divide by zero");
+            }
+        */
+        int result = dividend/divisor;
+        
 
+        
     }
 }
